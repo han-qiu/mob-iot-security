@@ -7,3 +7,4 @@ The device is Google Nexus 4. Android version 5.1.1.
 - Disable apk check from usb
 - install Kingo Root
 - install adbd insecure (https://blog.csdn.net/hlllmr1314/article/details/52217128)
+- Brida-server crash
