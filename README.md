@@ -69,17 +69,17 @@ https://www.frida.re/docs/modes/. Frida basically support three different modes:
 Injected, Embedded, Preloaded
 
 # List of tools in frida:
-frida-ps: listing processes
+`frida-ps`: listing processes
 
-frida-trace: dynamically tracing function calls
-'-i/-x' include/exclude function, `-I/-X` include/exclude module, '-f' spawn FILE.
-"module/function/object".
+`frida-trace`: dynamically tracing function calls
+`-i/-x` include/exclude function, `-I/-X` include/exclude module, `-f` spawn FILE.
+`module/function/object`.
 
-frida-discover: discover internal functions in a program, which can be traced by using frida-trace
+`frida-discover`: discover internal functions in a program, which can be traced by using frida-trace
 
-frida-ls-devices: listing attached devices
+`frida-ls-devices`: listing attached devices
 
-frida-kill: command-line tool for killing processes.
+`frida-kill`: command-line tool for killing processes.
 
 # Frida python APIs
 How does it work?
@@ -101,7 +101,7 @@ Some findings:
 # Notice
 Remember to use `-U` option  of the commands to monitor the USB instead of the host machine
 
-# User MobSF
+# Use MobSF
 - Need to use Genymotion(https://www.genymotion.com/fun-zone/, download personal edition, you need to create an account).
 - Need to install https://github.com/m9rco/Genymotion_ARM_Translation, seems not support android 9. Tutorial(https://pentester.land/tips-n-tricks/2018/10/19/installing-arm-android-apps-on-genymotion-devices.html)
 - Activity Tester, Exported Activity Tester
